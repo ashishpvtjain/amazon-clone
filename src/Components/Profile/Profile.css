@@ -1,0 +1,41 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProfileLogo{
+    width: 100px;
+    margin: 25px 0;
+    object-fit: contain;
+    flex: 1 0 auto;
+}
+.ProfileContainer{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.ProfileContainer h3{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.ProfileContainer h6{
+    margin-bottom: -15px;
+}
+.ProfileContainer form input{
+    width: 98%;
+    margin: 8px 0;
+    height: 30px;
+    border: 1px solid gray;
+}
+.ProfileContainer .ProfileButton{
+    height: 30px;
+    width: 100%;
+    background: #f0c14b;
+    border-radius: 2px;
+    margin-top: 15px;
+    color: black;
+    cursor: pointer;
+}

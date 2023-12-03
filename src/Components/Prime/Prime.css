@@ -1,0 +1,71 @@
+.Prime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-color: gainsboro;
+    width: 75%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    height: 100%;
+}
+.PrimeLogo{
+    /* font-size: 100px; */
+    /* margin: 24px 0; */
+    width: 300px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.Prime p{
+    text-decoration:solid ;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 200px;
+}
+.row p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+    /* margin-bottom: 70px; */
+}
+.row .p2{
+    font-size: 14px;
+}
+.row .box1{
+    background-color: skyblue;
+    width: 250px;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+}
+.row .box2{
+    background-color: skyblue;
+    width: 250px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+.row button{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    /* margin-top: 10px; */
+    margin-top: 20px;
+    background-color: #f0c14b;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+

@@ -1,0 +1,19 @@
+.Cart{
+    display: flex;
+    flex: 1 0 auto;
+    padding: 20px;
+    height: max-content;
+}
+.CartAD{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.CartemptyImg{
+    height: 250px;
+    width: 350px;
+    object-fit: contain;
+    margin: 10px auto;
+}
+.text{
+    font-size: 15px;
+}
